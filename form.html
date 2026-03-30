@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="fname">Full Name:</label>
+        <input type="text" placeholder="Enter Your Full Name" name="fullname" id="fname">
+        <br><br>
+        <label for="mail">Email Address:</label>
+        <input type="email" placeholder="Enter Your Full email" name="mail" id="mail">
+        <br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" placeholder="Enter Your Password" name="password" id="pwd">
+        <br><br>
+        <label for="count">Count:</label>
+        <input type="number" name="count" id="count" min="0" max="10">
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label>gender</label>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Male">male</label>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Female">Female</label>
+        <br><br>
+        <label>Choice</label>
+        <input type="checkbox" name="Choice1" id="Choice1" value="Choice1">
+        <label for="Choice1">Choice1</label>
+        <input type="checkbox" name="Choice2" id="Choice2" value="Choice2">
+        <label for="Choice2">Choice2</label>
+        <input type="checkbox" name="Choice3" id="Choice3" value="Choice3">
+        <label for="Choice3">Choice3</label>
+        <br><br>
+        <label for="pro_img">Pro image</label>
+        <input type="file" name="pro_img" id="pro_img">
+        <br><br>
+        <label for="Documents">docs</label>
+        <input type="file" name="Documents" id="Documents" multiple>
+        <br><br>
+        <label for="color">color</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <label for="renge">range</label>
+        <input type="range" name="range" id="range" min="0" max="10">
+        <br><br>
+        <label for="msg">Message:</label>
+        <textarea name="msg" id="msg" rows="5" cols="100" placeholder="Your msg.."></textarea>
+        <br><br>
+        <label for="City">city</label>
+        <select name="city" id="">city
+            <optgroup label="north">
+                <option value="siliguri">siliguri</option>
+            </optgroup>
+            <optgroup label="South">
+                <option value="KOlkata">kolkata</option>
+                <option value="Durgapur">durgapur</option>
+            </optgroup>
+        </select>
+
+        <input type="Submit" value="Submit  data">
+        <input type="reset" value="Reset data">
+    </form>
+    <hr>
+    <form action="">
+        <label for="fullname">Enter Your Full Name:</label>
+        <input type="text" placeholder="" name="fullname" id="fullname">
+        <br><br>
+        <label for="department">Enter Your department:</label>
+        <input type="text" placeholder="" name="department" id="department">
+        <br><br>
+        <label for="msg">tell us a little about yourself:</label>
+        <textarea name="msg" id="msg" rows="5" cols="100" placeholder=""></textarea>
+        <br><br>
+        <label>Do you exercise at home?</label>
+        <input type="radio" name="exercise" id="yes" value="yes">
+        <label for="yes">yes</label>
+        <input type="radio" name="exercise" id="no" value="no">
+        <label for="no">no</label>
+        <br><br>
+        <label>How do you like to read about your favorite topics ?</label>
+        <br>
+        <input type="checkbox" name="books" id="books" value="books">
+        <label for="books">books</label>
+        <input type="checkbox" name="online_resources" id="online_resources" value="online resources">
+        <label for="online_resources">online resources</label>
+        <input type="checkbox" name="phone_apps" id="phone_apps" value="phone apps">
+        <label for="phone_apps">phone apps</label>
+        <input type="checkbox" name="magazines" id="magazines" value="magazines">
+        <label for="magazines">magazines</label>
+        <br></br>
+        <label for="genre">What genre movies do you like</label>
+        <select name="genre" id="genre">What genre movies do you like
+            <optgroup label="comedy">
+                <option value="horror comedy">horror comedy</option>
+            </optgroup>
+            <optgroup label="Actio">
+                <option value="action">action</option>
+                <option value="actio">actio</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit form">
+    </form>
+    <hr>
+    <form action="">
+        <p><b>Registration form</b></p>
+        <br>
+        <label for="firstname">First Name:</label>
+        <input type="text" placeholder="Enter first name" name="firstname" id="firstname">
+        <br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" placeholder="Enter last name" name="lastname" id="lastname">
+        <br>
+        <label for="mail">Email:</label>
+        <input type="email" placeholder="Enter email address" name="mail" id="mail">
+        <br>
+        <label for="pwd">Password:</label>
+        <input type="password" placeholder="" name="password" id="pwd">
+        <br>
+        <label>gender</label>
+        <br>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Male">male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label>
+        <br>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">other</label>
+        <br>
+        <label for="Age">Age:</label>
+        <input type="number" name="age" id="Age" min="0" max="10">
+        <br>
+        <label>prefereces</label>
+        <br>
+        <input type="checkbox" name="acrylic_painting" id="acrylic_painting" value="acrylic painting">
+        <label for="acrylic_painting">acrylic painting</label>
+        <br>
+        <input type="checkbox" name="oil_painting" id="oil_painting" value="oil painting">
+        <label for="oil_painting">oil painting</label>
+        <br>
+        <input type="checkbox" name="water_color_painting" id="water_color_painting" value="water color painting">
+        <label for="water_color_painting">water color painting</label>
+        <br>
+        <label for="select_occupation">select occupation</label>
+        <select name="select_occupation" id="">select occupation
+            <optgroup label="student">
+                <option value="student">student</option>
+            </optgroup>
+            <optgroup label="worker">
+                <option value="office worker">office worker</option>
+                <option value="worker">worker</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="msg">bio:</label>
+        <textarea name="msg" id="msg" rows="5" cols="100" placeholder="share few lines about yourself..."></textarea>
+        <br>
+        <input type="Submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <hr>
+    <form action="">
+        <h2>Travel reservation form</h2>
+        <p><b>*denotes mandotory</b></p>
+        <br><br>
+        <label for="fullname">Full Name:</label>
+        <br>
+        <input type="text" placeholder="Firstname Lastname" name="fullname" id="fullname">
+        <br><br>
+        <label for="mail">Email address:</label>
+        <br>
+        <input type="email" placeholder=" email address" name="mail" id="mail">
+        <br><br>
+        <label for="select_tour">select tour package:</label>
+        <br>
+        <select name="select_tour" id="select_tour">select tour package
+            <optgroup label="goa">
+                <option value="goa">goa</option>
+            </optgroup>
+            <optgroup label="manali">
+                <option value="manali">manali</option>
+                <option value="manali">manali</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <label for="date">Arival Date:</label>
+        <br>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <label for="age">number of :</label>
+        <input type="number" name="age" id="age" min="0" max="100">
+
+    </form>
+
+</body>
+
+</html>
